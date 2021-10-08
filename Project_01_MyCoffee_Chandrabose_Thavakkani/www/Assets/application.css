@@ -1,52 +1,86 @@
-.navmenu {
-    background-color: #7e9299;
-    position: absolute;
-    float: right;
+html {
+  background: #f6faff;
 }
 
-w3-container{
-margin: 10%;
+.wrapper {
+  display:flex;  
+  font: 30;
+  font-style: normal;
+  font-weight: bold;
 }
 
-img {
-  padding-left: 10px;
-  padding-right: 100px;
-  padding-top: 20px;
-  height: 50%;
-  width: 10%;
-}
-
-#headerLogoFrame{
-  position: absolute;
-  background-color: #7e9299;
-  height: 15%;
+.item {
+  left: 0;
+  background-color: #67777c;
+  height: 10%;
   width: 100%;
-  padding-left: 10px;
-  padding-right: 20px;
-  padding-top: 5px;
-  /* padding: 40px; */
+  padding: 1rem;
+  border-left: 10px;
+  color: #f6faff;
+  font-size: 20px;
 }
 
-/* img.headerLogo{
-  width: 10%;
-  top: 50%;
-  transform: translateY(-50%);
-} */
+ 
+.headerLogo{
+  height: 0.5%;
+  width: 11%;
+}
 
-/* li.navMenuItem{
-  position: relative;
-  padding-top: 10px; */
-  /* top: 8px;
-  right: 16px; 
-}*/
+.wrapper2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 
-/* #footerLogoFrame{
-  background-color: #6e6e6e;
-  position: fixed;
-  bottom: 8px;
-  left:16px
+div.wrapper3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-stretch:expanded;
+}
+
+.socialLogo{
+  height: 40%;
+  width: 3%;
+  padding: 25px;
 }
 
 .footerLogo{
-    background-color: #6e6e6e;
-} */
+  height: 5%;
+  width: 3.25%;
+}
+
+.footerText{
+align-items: center;
+}
+
+.main{
+  background-color: white;
+color: #67777c;
+}
+
+.bodyMrCoffeeLogo{
+ display: flex;
+}
+
+.bodyMrCoffeeJpgItem{
+  display: block;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  height: 1000px;
+  width: 1800px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+ 
+.bodyMrCoffeeLogoItem{
+  display: block;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: 240px;
+  width: 250px;
+}

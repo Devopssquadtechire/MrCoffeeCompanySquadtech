@@ -4,6 +4,11 @@
 <head>
     <title>This is Mr.Coffee Web portal</title>
     <link href="./application.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="description" content="Project-1">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Chandrabose Thavakkani">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -11,22 +16,108 @@
         <div class="wrapper item">
             <img class="headerLogo" src="./full_logo_white.png" alt="Header logo">
             <div class="wrapper item"></div>
-            <div class="wrapper2 item">
-                <div class="navMenuItem1">Accueil</div>
-                <div class="navMenuItem2">Qui sommes-nous?</div>
-                <div class="navMenuItem3">Nous contacter</div>
+                <nav class="wrapper2 item">
+                    <nav class="navMenuItem1"><a href="index.html">Accueil</a></nav>
+                    <nav class="navMenuItem2"><a href="about.html">Qui sommes-nous?</a></nav>
+                    <nav class="navMenuItem3"><a href="contact.html">Nous contacter</a></nav>
+                </nav>
             </div>
         </div>
     </header>
-    <div class="wrapper item main bodyMrCoffeeLogo"><img class="bodyMrCoffeeLogoItem" src="logo_mrcoffee.png"></div>
-    <div class="wrapper item main bodyMrCoffeeLogo"><img class="bodyMrCoffeeJpgItem" src="mr_coffee_salle.jpg"></div>
-    <div class="wrapper item main">
-        Print something between header and footer so that it will be very longer
+    <div class="wrapper item main bodyMrCoffeeLogo"><img class="bodyMrCoffeeLogoItem" src="logo_mrcoffee.png"  alt=""></div>
+    <div class="wrapper item main bodyMrCoffeeLogo"><img class="bodyMrCoffeeJpgItem" src="mr_coffee_salle.jpg"  alt="">
+            <p class="fontInImg">
+                DÉCOUVREZ NOTRE CAFÉ PHILO
+            </p>
+    </div>
+    <div class="wrapper2 item main textBelowMrCoffeeJpg">
+    </div>
+    <div class="wrapper2 item main textBelowMrCoffeeJpg">
+            Chez Mr.Coffee,
+        <br>
+        nous aimons trois choses
+    </div>
+    <div class="wrapper2 item main textBelowMrCoffeeJpg">
+    </div>
+    <div class="wrapper4">
+                <div class="iconCafeItemsFrame item4 boxShadow">
+                    <p class="item4 wrapper4"><img class="iconCafeLogo" src="icon_café.png" alt=""></p>
+                    <p class="item4 iconCafeItemsFrameItemText1 wrapper4">Le bon café</p>
+                    <p class="iconCafeItemsFrameItemText2 wrapper4">Nos priorités : la qualité et le goût.
+                    Tous nos cafés sont soigneusements
+                    séléctionnés en accord avec nos
+                    valeurs de respect de la nature et des
+                    hommes.
+                    </p>
+                </div>
+                <div class="iconCafeItemsFrame item4 boxShadow">
+                    <p class="item4 wrapper4"><img class="iconCafeLogo" src="icon_gens.png" alt=""></p>
+                    <p class="item4 iconCafeItemsFrameItemText1 wrapper4">Les gens</p>
+                    <p class="iconCafeItemsFrameItemText2 wrapper4">Nous sommes de ceux qui pensent
+                    qu’ensemble, nous allons plus loin.
+                    C’est pourquoi chez Mr.Coffee, notre
+                    mission est de rassembler les gens en
+                    leur offrant un lieu de liberté et de
+                    partages.</p>
+                </div>
+                <div class="iconCafeItemsFrame item4 boxShadow">
+                    <p class="item4 wrapper4"><img class="iconCafeLogo" src="icon_histoires.png" alt=""></p>
+                    <p class="item4 iconCafeItemsFrameItemText1 wrapper4">Les histoires</p>
+                    <p class="iconCafeItemsFrameItemText2 wrapper4">Chez Mr.Coffee, que vous soyez
+                    poête, fantasque ou philosophe, nous
+                    vous offrons un lieu pour parler de
+                    vos histoires, ou pour les écrire.</p>
+                </div>
+    </div>    
+    <div class = "wrapper4 item4">
+        <p class="boxType">
+            En savoir plus
+        </p>
+    </div>
+    <div class = "wrapper2 item main textBelowMrCoffeeJpg">
+        Découvrez notre progamme
     </div>
     <div class="wrapper item main">
-        Print something between header and footer so that it will be very longer
+        <div class="wrapper item main">
+            <div class="imageWrapper"><img class = "imageWrapper iconOpenLogo" src="icon_open.png" alt=""></div>
+            <span class = "imageWrapper1 boldText slightlyBiggerFont">Votre café vous accueille 7j/7 :</span>
+        </div>
+        <div class="wrapper item main hide">
+        </div>
     </div>
-    <footer>
+    <div class="wrapper item main">
+        <p class = "item main biggerFont">
+                Tous les mardis,
+                <br>
+                retrouvez <span class="boldText">les cafés poésies :</span>
+        </p>
+        <p class="item main biggerFont">
+                Tous les jeudis,
+                <br>
+                retrouvez <span class="boldText">les cafés philo et débat :</span>
+        </p>
+    </div>
+    <div class="wrapper item main">
+        <p class = "item main boldText biggerFont">
+            Venez écouter ou lire vos plus beaux<br>
+            poèmes : Mr.Coffee offre une<br>
+            consommation à tous les courageux !
+        </p>
+        <p class = "item main boldText biggerFont">
+            Autour d’un thème philosophique ou de<br>
+            société, venez débattre entre experts ou<br>
+            simple curieux.
+        </p>
+    </div>
+    <div class="wrapper2 item main textAboveFooter2">
+            Sans oublier nos ateliers d’écritures et évènements excéptionnels !      
+    </div>
+    <div class="wrapper2 item main textAboveFooter1">
+        Rendez-vous sur notre page Contact pour retrouver
+        <br>
+        toutes les infos pratiques
+    </div>
+    <footer class="footer">
         <div class="wrapper item">
             <img class="item footerLogo" src="./logo_blanc.png" alt="Footer logo">
             <div class="item">
@@ -34,11 +125,12 @@
                 <div class="wrapper3">
                     <div class="wrapper3"></div>
                     <div class="wrapper3"></div>
-                    <img class="wrapper3 socialLogo" src="logo_linkedin.png">
-                    <img class="wrapper3 socialLogo" src="logo_twitter.png">
-                    <img class="wrapper3 socialLogo" src="logo_facebook.png">
+                    <img class="wrapper3 socialLogo" src="logo_linkedin.png" alt="">
+                    <img class="wrapper3 socialLogo" src="logo_twitter.png" alt="">
+                    <img class="wrapper3 socialLogo" src="logo_facebook.png" alt="">
                 </div>
             </div>
+        </div>
     </footer>
 </body>
 

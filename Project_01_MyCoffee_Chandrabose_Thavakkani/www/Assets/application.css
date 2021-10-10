@@ -107,6 +107,7 @@ align-items: center;
 
 .centerItem{
   text-align: center;
+  justify-content: center;  
 }
 
 .main{
@@ -248,10 +249,33 @@ font-size: 55px;
  font-size: 30px; 
 }
 
+.contactText1{
+  color: #5c5e5f;
+  margin-top: 1%;
+  margin-bottom: 5%;    
+  font-size: 60px;
+}
+
+.contactText2{
+  padding-left: 20%;
+  padding-right: 60%;
+  margin-top: 1%;
+  margin-bottom: 1%;    
+  font-size: 40px;
+}
+
+.mapsCss{
+  border:0;
+  margin-top: 4%;
+  margin-bottom: 5%;  
+  width:1000px;
+  height:800px;
+}
+
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top
  of each other instead of next to each other */
 @media (max-width: 700px) {
-  .wrapper, .wrapper4, .wrapper2 {   
+  .wrapper, .wrapper4, .wrapper2 ,.wrapper4 {   
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -275,5 +299,19 @@ font-size: 55px;
 .socialLogo{
   height: 10%;
   width: 13.25%;
+}
+.contactText2{
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 1%;
+  margin-bottom: 1%;    
+  font-size:30px;
+}
+.mapsCss{
+  border:0;
+  margin-top: 4%;
+  margin-bottom: 5%;  
+  width:200px;
+  height:150px;
 }
 }

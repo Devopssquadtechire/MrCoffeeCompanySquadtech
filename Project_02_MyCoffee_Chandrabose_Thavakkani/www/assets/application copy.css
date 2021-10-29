@@ -1,0 +1,52 @@
+.navmenu {
+    background-color: #67777c;
+    position: absolute;
+    float: right;
+}
+
+w3-container{
+margin: 10%;
+}
+
+img {
+  padding-left: 10px;
+  padding-right: 100px;
+  padding-top: 20px;
+  height: 50%;
+  width: 10%;
+}
+
+#headerLogoFrame{
+  position: absolute;
+  background-color: #7e9299;
+  height: 15%;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-top: 5px;
+  /* padding: 40px; */
+}
+
+/* img.headerLogo{
+  width: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+} */
+
+/* li.navMenuItem{
+  position: relative;
+  padding-top: 10px; */
+  /* top: 8px;
+  right: 16px; 
+}*/
+
+/* #footerLogoFrame{
+  background-color: #6e6e6e;
+  position: fixed;
+  bottom: 8px;
+  left:16px
+}
+
+.footerLogo{
+    background-color: #6e6e6e;
+} */

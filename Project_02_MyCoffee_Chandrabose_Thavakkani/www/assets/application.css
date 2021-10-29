@@ -1,0 +1,362 @@
+a { text-decoration: none; 
+  color: #f6faff;}
+
+.wrapper {
+  position: relative;  
+  display:flex;  
+  font: 30;
+  font-style: normal;
+  align-items: center;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+.item {
+  background-color: #67777c;
+  height: 10%;
+  width: 100%;
+  padding: 1rem;
+  color: #f6faff;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+ 
+.headerLogo{
+  height: 0.5%;
+  width: 11%;
+}
+
+.wrapper2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+div.wrapper3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-stretch:expanded;
+}
+
+.socialLogo{
+  height: 40%;
+  width: 3%;
+  padding: 25px;
+}
+
+.footerLogo{
+  height: 5%;
+  width: 3.25%;
+}
+
+.footerText{
+align-items: center;
+}
+
+.iconCafeItemsFrameItemText1{
+ text-shadow: 2px 2px #8a8b8b;  
+ font-size: 30px;
+}
+
+.iconCafeItemsFrameItemText2{
+  font-size: 25px;
+  text-align: center;  
+  height: fit-content;
+}
+
+.wrapper4{
+  display:flex;  
+  font: 30;
+  font-style: normal;
+  gap: 40px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form.wrapper4{
+  display:flex;  
+  flex-direction: column;
+  font: 30;
+  font-style: normal;
+  gap: 40px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.iconCafeItemsFrame{   
+  background-color: #b6c1c4;
+  color:white;
+  display: block;
+}
+
+.boxShadow{
+    box-shadow: -2px 0px 8px #67777c;
+}
+
+.item4{  
+  justify-content: center; 
+  height: 30%;
+  width: 80%;
+  padding: 10px;
+}
+
+.iconCafeLogo{
+  height: 25%;
+  width: 40%;
+}
+
+.iconOpenLogo{
+  height: 15%;
+  width: 35%;
+}
+
+.centerItem{
+  text-align: center;
+  justify-content: center;  
+}
+
+.main{
+  background-color: white;
+  color: #67777c;
+}
+
+.bodyMrCoffeeLogo{
+  display: flex;
+}
+
+.bodyMrCoffeeJpgItem{
+  position: relative;
+  align-items: stretch;
+  justify-items: stretch;      
+  display: block;
+  justify-content: center;
+  margin-top: auto;  
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: 1240px;
+  width: 1250px;  
+}
+ 
+.bodyMrCoffeeLogoItem{
+  display: block;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: 240px;
+  width: 250px;
+}
+
+.troisCafesPic{
+  align-items: stretch;
+  justify-items: stretch;  
+  margin-top: auto;
+  display: block;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: 800px;
+  width: 650px;
+  /* width: auto; */
+}
+
+.fontInImg{
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  position: absolute;
+  max-width: 100%;
+  top: 60px;
+  color: white; 
+  font-size: 45px;
+  text-shadow: 2px 2px #8a8b8b;    
+}
+
+.textBelowMrCoffeeJpg{
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  font-family: system-ui, system-ui, sans-serif;
+  color: #6b6d6e;
+}
+
+.textAboveFooter2{
+  margin-top: 3%;
+  margin-bottom: 2%;      
+  text-align: center;
+  /* font-weight: bold; */
+  font-size: 33px;
+  font-family: system-ui, system-ui, sans-serif;
+  color: #6b6d6e;
+}
+
+.textAboveFooter1{
+  margin-top: 3%;
+  margin-bottom: 2%;      
+  text-align: center;
+  /* font-weight: bold; */
+  font-size: 42px;
+  font-family: system-ui, system-ui, sans-serif;
+  color: #5c5e5f;
+}
+
+.boxType{
+  padding: 2%;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #67777c;
+  color: white;
+  justify-content: center;
+  height: 70%;
+  margin-top: 4%;
+  margin-bottom: 3%;  
+  width: 25%;
+  font-size: 30px;
+}
+
+.slightlyBiggerFont{
+    font-size: 35px;
+}
+
+.biggerFont{
+  margin-top: 1%;
+  margin-bottom: 1%;    
+  text-align: center;
+    font-size: 40px;
+}
+
+.boldText{
+  font-weight : bold;
+  color: #5c5e5f; }
+
+.imageWrapper{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+  flex-basis: auto;  
+}
+
+.imageWrapper1{
+  display: flex; 
+  flex-basis: 75%;
+  justify-content: flex-start;
+}
+
+.aboutTextType1{
+font-size: 55px;
+}
+
+.aboutTextType2{
+ font-size: 30px; 
+}
+
+.contactText1{
+  color: #5c5e5f;
+  margin-top: 1%;
+  margin-bottom: 5%;    
+  font-size: 60px;
+  left: 0;
+}
+
+.modalText2{
+  color: #5c5e5f;
+  margin-top: 1%;
+  margin-bottom: 5%;    
+  font-size: 35px;
+}
+
+
+ .contactText2{
+  padding-left: 10%; 
+  padding-right: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;    
+  font-size: 40px;
+}
+
+.mapsCss{
+  size: 40%;
+  border: 1px;
+  padding-left: 30%;
+  margin-top: 4%;
+  margin-bottom: 5%;  
+}
+
+input{
+  box-sizing: border-box;
+  font-size: 30px;
+  margin-top: 8px;
+  padding: 2%;
+  width: 50%;
+  height: 20%;
+  background-color: #c0cad1;
+}
+
+#inputMessage{
+  font-size: 30px;
+  margin-top: 8px;
+  padding: 2%;
+  width: 70%;
+  height: 20%;  
+  margin-top: 8px;
+  background-color: #c0cad1;
+}
+
+form.item4{
+  justify-content: stretch;
+}
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top
+ of each other instead of next to each other */
+@media (max-width: 700px) {
+  .wrapper, .wrapper4, .wrapper2 ,.wrapper4 {   
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .headerLogo{
+    height: 23%;
+    width: 55%;
+  }
+
+  .item{
+    width: 95%;
+  }
+  .imageWrapper{
+    flex-basis: 70%;  
+  }
+
+.footerLogo{
+  height: 20%;
+  width: 18.25%;
+}
+.socialLogo{
+  height: 10%;
+  width: 13.25%;
+}
+.contactText2{
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 1%;
+  margin-bottom: 1%;    
+  font-size:30px;
+}
+.mapsCss{
+  border:0;
+  margin-top: 4%;
+  margin-bottom: 5%;  
+  width:200px;
+  height:150px;
+}
+}

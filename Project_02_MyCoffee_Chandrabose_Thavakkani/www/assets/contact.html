@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="En">
+
+<head>
+    <title>This is Mr.Coffee Web portal</title>
+    <link href="./application.css" rel="stylesheet">
+    <link href="./popupmodal.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="description" content="Project-1">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Chandrabose Thavakkani">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <div class="wrapper item">
+            <img class="headerLogo" src="./full_logo_white.png" alt="Header logo">
+            <div class="wrapper item"></div>
+                <nav class="wrapper2 item">
+                    <nav class="navMenuItem1"><a href="index.html">Accueil</a></nav>
+                    <nav class="navMenuItem2"><a href="about.html">Qui sommes-nous?</a></nav>
+                    <nav class="navMenuItem3"><a href="contact.html">Nous contacter</a></nav>
+                </nav>
+        </div>
+    </header>
+    <div class="wrapper item main bodyMrCoffeeLogo"><img class="bodyMrCoffeeLogoItem" src="logo_mrcoffee.png" alt="">
+    </div>
+    <div class="wrapper item main contactText1 centerItem">
+            Dites nous tout !
+    </div>
+    <form class="wrapper4 item4 main myForm contactText2" id="myForm" name="userDetails" action="#" method = "POST">
+                <div class="contactText2">
+                <label> Nom * </label><br><input type="text" name="nom" minlength="1" maxlength="18"><br>             
+                <label> Prénom * </label><br><input type="text" name="prenom" minlength="1" maxlength="18"><br>
+                <label> Téléphone </label><br><input type="text" name="phone" minlength="1" maxlength="15"><br>
+                <label> Adresse mail * </label><br><input type="text" name="addressMail" minlength="1" maxlength="18"><br>
+                <label> Message * </label><br><textarea name="message" id="inputMessage" cols="40" rows="5"></textarea><br>
+                </div>
+                <button class="wrapper4 item4 boxType centerItem" id="sendButton" class="sendButtonClass" type="submit">Send</button>
+    </form>
+    <!-- The Acknowledgment Modal that gets displayed after validation-->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <p class = "contactText1 centerItem">MERCI <br>Votre message a bien été envoyé !</p>
+            <p class= "modalText2 centerItem">Nous essaierons d’y répondre au mieux dans les plus brefs délais. À bientot chez Mr.Coffee</p>
+            <button class="wrapper4 item4 boxType" id="modalSendButton" class="sendButtonClass" type="submit">FERMER</button>
+        </div>
+    </div>
+    <div id="myerrorModal" class="myerrorModal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <p id ="nomModalError1" class="modalText2 centerItem">Sorry! Mandatory field is not filled</p>
+            <p id="phoneModalError1" class="modalText2 centerItem">Sorry! Telephone field can be only Numbers</p>
+            <button class="wrapper4 item4 boxType" id="modalSendButton1" class="sendButtonClass"
+                type="submit">Okay</button>
+        </div>
+    </div>
+    <script src="form.js"></script>
+    <div class="wrapper item main contactText1 centerItem">
+            On vous attend !
+    </div>
+    <div class="wrapper4 contactText2">
+        <div class="contactText2 main">
+            <b>Mr.Coffee</b><br>
+            15 place Jules Guesde<br>
+            75006 Paris<br>
+        </div>
+    </div>
+    <div class="wrapper4 contactText2">
+        <div class="contactText2 main">
+        Tel : +33 9 46 25 78 45<br>
+        Mail : contact@mr-coffee.com
+        </div>
+    </div>
+    <div class="wrapper item main">
+        <iframe class="mapsCss"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d656.531188894107!2d2.320766!3d48.836759!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671b5590a00b1%3A0x2711ee015c1c2b2e!2s15%20Rue%20Jules%20Guesde%2C%2075014%20Paris%2C%20France!5e0!3m2!1sen!2sie!4v1633903212656!5m2!1sen!2sie"
+              allowfullscreen="" loading="lazy">
+        </iframe>
+    </div>
+    <footer class="footer">
+        <div class="wrapper item">
+            <img class="item footerLogo" src="./logo_blanc.png" alt="Footer logo">
+            <div class="item">
+                <div class="wrapper3">Suivez nous sur les réseaux sociaux !</div>
+                <div class="wrapper3">
+                    <div class="wrapper3"></div>
+                    <div class="wrapper3"></div>
+                    <img class="wrapper3 socialLogo" src="logo_linkedin.png" alt="">
+                    <img class="wrapper3 socialLogo" src="logo_twitter.png" alt="">
+                    <img class="wrapper3 socialLogo" src="logo_facebook.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
